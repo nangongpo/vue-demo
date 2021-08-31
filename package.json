@@ -1,0 +1,46 @@
+{
+  "name": "vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "preview": "node build/index.js --preview",
+    "report": "node build/index.js --preview --report",
+    "inspect": "vue-cli-service inspect > output.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "echarts": "4.0.2",
+    "element-ui": "^2.15.5",
+    "file-saver": "^2.0.5",
+    "lodash": "^4.17.21",
+    "mockjs": "^1.1.0",
+    "particles.js": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-countupjs": "^1.0.0",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "xlsx": "^0.17.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "connect": "^3.7.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "git-revision-webpack-plugin": "^3",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "tasksfile": "^5.1.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
