@@ -1,4 +1,6 @@
-# vue
+# vue-demo
+
+demo: https://nangongpo.github.io/vue-demo/
 
 ## Project setup
 ```
